@@ -9,6 +9,10 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'paperclip'
+gem 'masonry-rails', '~> 0.2.4'
+gem 'jquery-turbolinks'
+gem 'turbolinks', '~> 5.2.0'
+gem 'imagesLoaded_rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlite3 as the database for Active Record
@@ -20,7 +24,6 @@ gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
