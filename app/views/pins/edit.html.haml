@@ -2,6 +2,7 @@
 
 	%h1 Edit Form
 
+	= image_tag @pin.image.url(:medium)
 	= render 'form'
 
 	= link_to "Cancle", pin_path(@pin)
